@@ -18,5 +18,3 @@
 **vFolderLocker** v1.5 is allowed to be used for anyone who has downloaded it from this website without paying anything. This application was developed using Visual Studio / Visual Basic Express 2010. You can change, rebuild, and upload it to your blog / site belongs to you. You are also allowed to change the name of the application and change the logo.
 
 But obey one thing, you are not allowed to change the Author, Copyright, Company, contained in the application properties. If you violate this, we will report it to the authorities for acts of piracy of software illegally.
-
-##Downloads
