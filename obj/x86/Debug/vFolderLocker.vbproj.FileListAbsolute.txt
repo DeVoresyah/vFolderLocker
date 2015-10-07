@@ -1,0 +1,11 @@
+D:\Projct\K-Lock Folder NEW\bin\Debug\vFolderLocker.exe
+D:\Projct\K-Lock Folder NEW\bin\Debug\vFolderLocker.pdb
+D:\Projct\K-Lock Folder NEW\bin\Debug\vFolderLocker.xml
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.AddFolder.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.mainForm.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.Resources.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.start.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.vbproj.GenerateResource.Cache
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.exe
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.xml
+D:\Projct\K-Lock Folder NEW\obj\x86\Debug\vFolderLocker.pdb

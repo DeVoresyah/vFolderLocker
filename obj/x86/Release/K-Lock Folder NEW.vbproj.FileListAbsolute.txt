@@ -1,0 +1,11 @@
+D:\Projct\K-Lock Folder NEW\bin\Release\K-Lock Folder NEW.exe
+D:\Projct\K-Lock Folder NEW\bin\Release\K-Lock Folder NEW.pdb
+D:\Projct\K-Lock Folder NEW\bin\Release\K-Lock Folder NEW.xml
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K_Lock_Folder_NEW.AddFolder.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K_Lock_Folder_NEW.mainForm.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K_Lock_Folder_NEW.Resources.resources
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K-Lock Folder NEW.vbproj.GenerateResource.Cache
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K-Lock Folder NEW.exe
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K-Lock Folder NEW.xml
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K-Lock Folder NEW.pdb
+D:\Projct\K-Lock Folder NEW\obj\x86\Release\K_Lock_Folder_NEW.start.resources

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vFolderLocker Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="vFolderLocker - Protect Your Private Folder">
+    <meta name="author" content="Rully Ardiansyah">
+    
+    <!-- loading the css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <style type="text/css">
+    body {
+        padding-bottom: 40px;
+    }
+
+    section {padding: 60px 0 0 0;}
+    </style>
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
+
+          <!-- Various Icons (Favicon, Touch Icon,... -->
+          <link rel="shortcut icon" href="assets/img/favicon.ico">
+          <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+          <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+      </head>
+
+
+
+      <body data-spy="scroll" data-target=".navbar" id="top">
+
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+                    <a class="brand" href="#overview">vFolderLocker</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Summary</a></li>
+                            <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="drop2" href="#getting_started">Getting Started<b class="caret"></b></a>
+                                    <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
+                                        <li><a href="#getting_started_add">Add New Folder</a></li>
+										<li><a href="#getting_started_remove">Remove Folder</a></li>
+										<li><a href="#getting_started_lock">Lock Folder</a></li>
+										<li><a href="#getting_started_unlock">Unlock Folder</a></li>
+									</ul>
+                            </li>
+                            <li><a href="#uninstalling">Uninstall</a></li>
+							<li><a href="https://github.com/DeVoresyah/vFolderLocker-Open-Source">Fork On GitHub</a></li>
+
+
+
+
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- ========================= NAVIGATION BAR >> END ========================= -->
+
+
+
+                                                            <!-- ========================= MAIN CONTAINER >> START ========================= -->
+                                                            <div class="container">
+
+                                                                <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+                                                                <section id="overview">
+
+                                                                    <div class="hero-unit">
+                                                                        <h1>vFolderLocker Documentation</h1>
+                                                                        <p>Thank you for using the applications we develop. Hope it can help you in securing a folder, please send <b>Issue</b> on <a target="_blank" href="https://github.com/DeVoresyah/vFolderLocker-Open-Source">GitHub</a>. Thanks so much! </p>
+                                                                        <div class="row-fluid">
+                                                                            <div class="span3"><a target="_blank" href="https://github.com/DeVoresyah/vFolderLocker-Open-Source/issues" class="btn btn-inverse btn-large btn-block">Send Issues</a></div>
+                                                                            <div class="span3"><a href="#changelog" role="button" class="btn btn-success btn-large btn-block" data-toggle="modal">Changelog</a></div>
+                                                                            <div class="span3"><a href="#credits" role="button" class="btn btn-info btn-large btn-block" data-toggle="modal">Credits</a></div>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <hr>
+
+                                                                    <div class="row-fluid">
+                                                                        <div class="span6">
+                                                                            <table width="100%">
+                                                                                <tr>
+                                                                                    <td>Author:</td>
+                                                                                    <td><a href="https://github.com/DeVoresyah">DeVoresyah</a></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Corporation :</td>
+                                                                                    <td><b>Vore Corporation</b></td>
+                                                                                </tr>
+																				<tr>
+                                                                                    <td>Trademark :</td>
+                                                                                    <td><b><a href="http://vore-corporation.blogspot.com" title="Vore Corporation">Vore-Corp</a></b></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                        
+                                                             
+                                                                        <div class="span6">
+                                                                            <table width="100%">
+                                                                                <tr>
+                                                                                    <td>Created:</td>
+                                                                                    <td>05-11-2014</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>Modified:</td>
+                                                                                    <td>07-12-2014</td>
+                                                                                </tr>
+                                                                                 <tr>
+                                                                                    <td>Current Version:</td>
+                                                                                    <td>1.5</td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <hr>
+
+                                                                </section>
+                                                                <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+<br/><br/>
+
+                                                                <!-- ========================= SECTION: MARKUP >> START ========================= -->
+                                                                <section id="getting_started">
+                                                                    <div class="page-header"><h1>Getting started</h1></div>
+																	<p>Previously, I thank you because you have to use an application that we developed.</p>
+                                                                    <hr />
+                                                                    <h3 id="getting_started_add">Add Folder To List</h3>
+                                                                    <p>You can do it by follow this step:</p>
+																	
+																	<div class="row">																	
+                                                                    <ol>
+                                                                        <li>First, you must have already installed this app</li>
+                                                                        <li>In an application, press the button <strong class="buttongreen">Add Folder</strong>. to add a new folder to the list</li>
+																		<li>Then browse the folders you want to be locked, and press the Add button as shown below<br/>
+																			<img class="img-polaroid" src="assets\img\BrowseFolder.png" />
+																			<p>
+																			1. Click to browse the folder, or you can type the destination in textbox<br/>
+																			2. Then click <b>Add</b> to add new folder to the list
+																			</p></li>
+																		<li>Folders that had been added will automatically appear in the list</li>
+                                                                    </ol>
+                                                                    </div>
+                                                                    <hr />
+																	
+																	<h3 id="getting_started_remove">Remove Folder From The List</h3>
+																	<p>Previously, you had to have a folder in the list (at least one folder)</p>
+                                                                    <div class="row">
+																		<ol>
+																		<li>Click the folder you want to <b>Delete</b> from the list</li>
+																		<li>Then press the <strong class="buttongreen">Remove</strong> button</li>
+																		</ol>
+                                                                    </div>
+																	<hr />
+																	
+																	<h3 id="getting_started_lock">Lock Folder</h3>
+																	<p>Previously, you had to have a folder in the list (at least one folder) with a Locked status</p>
+																	<div class="row">
+                                                                        <ol>
+																		<li>Click the folder you want to <b>Lock</b> from the list</li>
+																		<li>Then press the <strong class="buttongreen">Lock</strong> button</li>
+																		</ol>
+																	</div>
+																	<hr />
+																	
+																	<h3 id="getting_started_unlock">Unlock Folder</h3>
+																	<p>Previously, you had to have a folder in the list (at least one folder) with a Unlocked status</p>
+																	<div class="row">
+                                                                        <ol>
+																		<li>Click the folder you want to <b>Lock</b> from the list</li>
+																		<li>Then press the <strong class="buttongreen">Lock</strong> button</li>
+																		</ol>
+																	</div>
+                                                                </section>
+              <!-- ========================= SECTION: MARKUP >> END ========================= -->
+
+
+              <section id="uninstalling">
+					<h3>Uninstalling The Program</h3>
+					<p>Before you uninstall this app, please <b>Unlock</b> all folders that have been <b>Locked</b></p>
+                </section>
+
+                                <!-- CHANGELOG >> START -->
+                                <div class="modal hide fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h3 id="changelog-label">Changelog</h3>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <!-- Code Block >> Start -->                   
+                                        <pre>Current version 1.5:
+- Changing K-Lock Folder To vFolderLocker
+- New Background Color
+- New Icon App
+- Fix Some Bugs
+
+Version 1.0:
+- List Folder
+- Automatically save data from list
+- Counting the number of files in the folder
+- Easy to use with System UI
+- Display a simple application
+            <!-- +   Addition
+            ^   Change
+            -   Removed
+            *   Security Fix
+            #   Bug Fix
+            !   Note</pre>
+            <!-- Code Block >> End --> 
+
+            <!-- Code Block >> Start -->                   
+        </pre>
+        <!-- Code Block >> End -->                   
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+</div>
+<!-- CHANGELOG >> END -->
+
+
+
+<!-- CREDITS >> START -->
+<div class="modal hide fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="credits-label" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="credits-label">Credits</h3>
+    </div>
+    <div class="modal-body">
+        <p>This application is under development on <a href="https://github.com/DeVoresyah/vFolderLocker-Open-Source">Github</a></p>    
+</div>
+<div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+</div>
+</div>
+<!-- CREDITS >> END -->
+
+<!-- loading javascripts -->
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+<!-- init javascripts -->
+<script src="assets/js/init.js"></script>
+
+</body>
+
+</html>
