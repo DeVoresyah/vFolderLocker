@@ -1,5 +1,5 @@
 <center><h1>vFolderLocker</h1>
-[<a href="#About">About</a>] - [<a href="Features">Features</a>] - [<a href="Terms">Terms</a>]</center>
+[<a href="#about">About</a>] - [<a href="#features">Features</a>] - [<a href="#terms">Terms</a>] - [<a href="#license">License</a>]</center>
 
 ##About
 **vFolder Locker** Is an application to lock a folder and can be opened again, this software is run on a Windows operating system. By using this application, you can lock any folder you want to be safe from anyone. This software is 100% free without charge, and this application can be used by anyone.
